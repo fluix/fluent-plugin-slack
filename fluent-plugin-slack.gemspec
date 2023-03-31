@@ -17,11 +17,11 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "fluentd", ">= 0.12.0"
 
-  gem.add_development_dependency "rake", ">= 10.1.1"
-  gem.add_development_dependency "rr", ">= 1.0.0"
+  gem.add_development_dependency "rake", ">= 13.0.6"
+  gem.add_development_dependency "rr", ">= 3.1.0"
   gem.add_development_dependency "pry"
   gem.add_development_dependency "pry-nav"
-  gem.add_development_dependency "test-unit", "~> 3.0.2"
-  gem.add_development_dependency "test-unit-rr", "~> 1.0.3"
+  gem.add_development_dependency "test-unit", "~> 3.5.3"
+  gem.add_development_dependency "test-unit-rr", "~> 1.0.5"
   gem.add_development_dependency "dotenv"
 end
