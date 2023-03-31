@@ -9,6 +9,7 @@ on:
       - lib/**
       - test/**
       - .github/workflows/build-gem.yml
+      - fluent-plugin-slack.gemspec
 
 jobs:
   build:
