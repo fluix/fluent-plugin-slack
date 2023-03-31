@@ -29,3 +29,9 @@ jobs:
 
       - name: Run tests
         run: bundle exec rake
+
+      - name: Release
+        uses: jstastny/publish-gem-to-github@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          owner: fluix
